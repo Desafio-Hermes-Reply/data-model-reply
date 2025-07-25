@@ -78,9 +78,16 @@ O modelo é estruturado para garantir a integridade, escalabilidade e segurança
 
 </br>
 
+## 💡 Imagem do Modelo Lógico
+
+<img width="765" height="611" alt="logical_model_db" src="https://github.com/user-attachments/assets/f5570e8b-9a1e-47c5-88bb-fc19f44a966c" />
+
+
+</br>
+
 ## 🤝 Imagem do Modelo Relacional
 
-<img width="962" height="779" alt="modelo_relacional" src="https://github.com/user-attachments/assets/5c3822cd-bbd6-4227-be4c-9e3dbdd1af45" />
+<img width="1044" height="768" alt="relational_model_db" src="https://github.com/user-attachments/assets/6089d9aa-c06d-4cf8-aded-772ab62cdb2e" />
 
 ---
 
