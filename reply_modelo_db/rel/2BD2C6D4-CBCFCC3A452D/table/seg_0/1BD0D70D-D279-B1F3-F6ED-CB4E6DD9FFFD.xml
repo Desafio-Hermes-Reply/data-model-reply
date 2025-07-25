@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BD0D70D-D279-B1F3-F6ED-CB4E6DD9FFFD" name="sensores">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>C4DBBA8A-2EAF-71A1-6FDC-61AE67B52906</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="C0474D32-29E4-23F4-A7B7-92CCFA71BDC6">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>D88CC1C0-DDB6-2736-16E2-725D8AD62624</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maquinas_id_maquina" id="818A9528-896D-E9E2-D7A0-A2269EE55C65">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>F7A3C248-C947-EA12-B878-749E67777F94</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CEAA641-6650-3C9A-7CCD-B9EEDDD36673" referredColumn="AE72885B-3D83-28AE-FA4D-E1B21239A2A4"/>
+</associations>
+</Column>
+<Column name="nome" id="6EB160B9-21C5-1D41-2748-379782EFB71C">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>46D07C7C-23A2-CB4A-A111-F2231E9AB9EB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B52BBB57-0D85-058F-9CCA-CA28CA700562</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="0A95A6E8-9E9B-6D37-4B04-A66E843D31F3">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>C7313F3E-9CCD-AE1B-491A-240CA28DD2B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA9E25D6-6724-5E49-67A2-7BBFDD475E2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_sensor" id="D3B8F5D3-EFB2-E16D-CE42-6E7120F91A9F">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>10987319-9469-7818-BA71-D63206761A08</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8C3E5126-ED23-7FFA-8CE1-E454141AC3E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sensor_ativo" id="02F0F0EA-047A-BAD7-D0A7-C215A58893DD">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>C33E12AF-A2C4-471C-CD60-F997000D1C0A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D283BB16-EB78-F4F4-F4B8-C69F6D422A57</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6253C47A-1926-49F4-0BB0-B501EF9ADFBE" name="PK_sensores">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>2C46F67E-F428-B3F0-2A6D-3E5F9781C27F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0474D32-29E4-23F4-A7B7-92CCFA71BDC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5333695C-07FD-B4A8-36AD-C0B36D269D43" name="FK_sensores_maquinas">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818A9528-896D-E9E2-D7A0-A2269EE55C65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

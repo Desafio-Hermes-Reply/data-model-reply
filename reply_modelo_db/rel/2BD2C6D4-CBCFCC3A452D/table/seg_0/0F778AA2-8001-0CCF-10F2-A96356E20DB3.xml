@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F778AA2-8001-0CCF-10F2-A96356E20DB3" name="usuarios">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>629136DD-7C71-36BD-BE85-A70974FB2AEA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="64339970-2A5D-C6AA-5289-C3260767AAF6">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>801C0344-F637-6490-282A-EEE70E54EC81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="perfis_id_perfil" id="DA445258-AD2D-5202-1745-4D9E6E37BAB6">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>05B72C8A-2F8B-9C4E-81DD-3FBEF4612A48</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DA4E83D-E7CC-2108-3879-27A75FEED06B" referredColumn="706C242F-66A6-891C-CD75-A10713BEB5E5"/>
+</associations>
+</Column>
+<Column name="empresas_cliente_id_empresa" id="44315D34-811A-14EC-A92C-3D21A7D17C0E">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>BDB8512B-A867-7B47-F01E-E4CC9FCFA86F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E20DC371-AA1A-DFDB-A276-FB53A76EB28A" referredColumn="4255FD04-87E9-2538-C912-475EB1A228BF"/>
+</associations>
+</Column>
+<Column name="nome" id="30C7B360-C260-EA50-97EE-E9FA66DB4AA7">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>32C98FE0-CDFC-67B3-A5D9-6C2F9B074BC0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA9E25D6-6724-5E49-67A2-7BBFDD475E2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="A8D31B3E-DFA2-2118-7171-0F5CD163E07D">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>DB0910C8-B96C-4771-C38F-846C6EC6C95C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B5DEF7AA-320A-BCD0-4B81-74BE4921EC9F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha_hash" id="02072CE0-449A-62CA-02F2-E9F6CD0FD64E">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>88845F6E-A499-0BA3-FC09-B74C4505E0A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A08464-CDAA-E0D7-1D9B-4A1FA8FE11FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C6F30A32-31D6-4F0F-B8BB-15BFC447D421">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>67315576-8110-968B-93AF-1A6648A50932</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B5DEF7AA-320A-BCD0-4B81-74BE4921EC9F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_acesso" id="C560F62B-6D55-0726-E648-79D2B20BB35C">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>224EC148-E32A-D89A-BDE7-C1452DA37583</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA9E25D6-6724-5E49-67A2-7BBFDD475E2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="F706F4B7-2B26-1D90-EE74-CFFBA7137F8A">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>FD7A5428-79BA-1A0B-D0B6-1FE76544D54E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>451B3907-322C-FC0A-1018-C54D3DC3EA99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_login" id="C5C6C600-5517-5552-237B-CE5582C9F1CE">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>57A0B578-1113-4591-3BFF-AD87D2FAFF62</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>03027B25-AC67-9701-11D9-A36C18E95BF4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_ativo" id="12FB8A19-693D-AB5F-4456-0FEE5619E2E4">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>71862340-1FF8-7156-BD9A-DE22CFCA591C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D283BB16-EB78-F4F4-F4B8-C69F6D422A57</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8ADE5D1F-DC00-BB13-1203-79D5656EC4D7" name="PK_usuarios">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>5BDC3E68-12A0-247F-8575-8D78F9611361</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64339970-2A5D-C6AA-5289-C3260767AAF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8630E69F-15CE-9155-A383-C9FDBCE94FB0" name="usuarios__IDX">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>5328FFCE-9382-E52F-21E6-37D390BDD4C9</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA445258-AD2D-5202-1745-4D9E6E37BAB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08112A0E-44BE-4023-E74A-8201258CBD07" name="FK_usuarios_empresas_cliente">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44315D34-811A-14EC-A92C-3D21A7D17C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA913BC9-8AF8-971F-BD67-1B9569859D09" name="FK_usuarios_perfis">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA445258-AD2D-5202-1745-4D9E6E37BAB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

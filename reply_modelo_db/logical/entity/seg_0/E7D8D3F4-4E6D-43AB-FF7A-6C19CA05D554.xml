@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7D8D3F4-4E6D-43AB-FF7A-6C19CA05D554" name="leitura sensores">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>D73B428D-C98F-A5A5-76C3-A0F6600EFFB9</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id leitura" id="EE6279FA-43CC-BB9C-807E-F3E925D774A5">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>2AA24209-786E-A6AF-90A5-017C7D523A70</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensores" id="A732C4CB-73BB-3348-6FD4-CC5837A5B21F">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>08732C08-064F-007B-FA3A-161C95B8546D</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<referedAttribute>8CA3C25E-6966-F85A-E7E6-A89617906379</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="1B42F8E2-7D93-F70B-C8C0-3D1F99944A52">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>55B346F8-33C2-7D4C-B3D1-DA47F91F3C8D</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo valor" id="57C2CE6D-DD71-DC67-8F87-177B322A17F6">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>15CF9C53-9433-FA98-F54F-EF364CE0C4AB</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA9E25D6-6724-5E49-67A2-7BBFDD475E2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data hora" id="BAF46E05-8A52-0BF5-40ED-E2CC275DDBE2">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>CB1517F3-06B6-3E06-961C-3D600C3AECD6</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>451B3907-322C-FC0A-1018-C54D3DC3EA99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA639112-0FC0-758B-8218-D21F012CFC84" name="PK leitura sensores">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>F9889533-2BBE-F9E2-9C30-3A2246CBC0D9</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE6279FA-43CC-BB9C-807E-F3E925D774A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

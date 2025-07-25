@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7960A18-938A-1B2F-1633-2B70553F7257" name="permissoes maquina usuario">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>A2D8D6FB-E105-14C2-07D8-3F52D4E8EF70</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id permissao" id="C44E3695-68AF-8213-5E3F-D07FFC217E6F">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>1A383E54-BD55-9478-5547-79EEED2F5885</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuarios" id="05A6D60A-80E7-07EF-49C5-3AED7DD0BB56">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>8EF85ADD-4D1B-FD1B-2516-377A76617E8B</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<referedAttribute>22DC0DCE-2F5E-D9E2-74C3-6EBD420008B2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maquinas" id="F772B7BF-5648-A17B-2DE3-52A69735D4DD">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>31A22539-CF96-884A-8803-12837434CE93</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<referedAttribute>6A5AFE4E-CFC8-51D0-E683-C7145463664E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data concessao" id="DA376A9B-DF9C-DCED-DF91-9DD830087BCB">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>2B31A359-5AFB-4075-B8FA-C5EC2ECC40A3</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<domain>03027B25-AC67-9701-11D9-A36C18E95BF4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="permissao ativa" id="9D841E69-F3FB-5EA1-495A-47B49EC8317E">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>F93F2278-446D-E651-7294-47F0477004A7</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D283BB16-EB78-F4F4-F4B8-C69F6D422A57</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A5C6FDF-33AC-CD69-190A-5F24C1D23497" name="PK permissoes maquina usuario">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>E3B38CBA-7161-C583-E47D-A7F809D20CB0</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C44E3695-68AF-8213-5E3F-D07FFC217E6F</attributeRef>
+<attributeRef>05A6D60A-80E7-07EF-49C5-3AED7DD0BB56</attributeRef>
+<attributeRef>F772B7BF-5648-A17B-2DE3-52A69735D4DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

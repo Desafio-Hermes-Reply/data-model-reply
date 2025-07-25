@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="perfis" directorySegmentName="seg_0" id="98B48A4C-77C4-91ED-62F6-B55C76025338">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="descricao" id="0A98AA4D-6255-7513-61AE-91073D46A510">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_perfil" id="706C242F-66A6-891C-CD75-A10713BEB5E5">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome_perfil" id="8AE8D325-2E88-1680-B936-6E0CC7AC2D43">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_perfis" id="1F490BB1-C1E1-725B-A123-3C39152A2132">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

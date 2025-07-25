@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0D731AF-B891-DE8E-7CAE-271F9B5A0608" name="empresas_cliente">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>63C928E6-4F1E-EFBD-9DFB-57AAA22810BE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empresa" id="4255FD04-87E9-2538-C912-475EB1A228BF">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>83D58E78-265D-27B8-1308-9235257EA774</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5CEAB44B-F537-E403-D69E-33824ADBFCED</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_empresa" id="AB663FE2-7CDA-3210-54A0-2791810D503D">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>205A4144-8760-B051-6197-17ADBB616136</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A08464-CDAA-E0D7-1D9B-4A1FA8FE11FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="194D833D-F44E-4451-9E0C-DBFD2ED8F3A9">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>B5CB5526-5D38-1176-D687-0D35733A81D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>A0FF9001-B621-F63D-E799-C6A8F1A553AB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="A2F48D10-44FC-4905-53BE-DC60E19CDE3F">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>FD6B88CC-D22A-302F-F7A5-23B4CA5BE00E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EAA6EF83-22DA-A2C5-6278-12B3C665A7E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="405178AC-4B5C-63D4-B01A-EAC4A7093A5A">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>EEEBC321-1173-261D-5045-AC771F871F7B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A08464-CDAA-E0D7-1D9B-4A1FA8FE11FA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_contrato" id="459D3CA4-6D54-40A5-889D-C4E13D155AD3">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>7456847F-977D-39FC-F00D-EE8BC0E7869F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>451B3907-322C-FC0A-1018-C54D3DC3EA99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa_ativa" id="645C593D-F475-1460-938B-A8201D6A9345">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>6E46EF3B-4DAE-3B32-0231-6DAE54FA0A74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D283BB16-EB78-F4F4-F4B8-C69F6D422A57</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="056A8E92-E1A6-AE12-7216-49E2BDFF5861" name="PK_empresas_cliente">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>6E6FFE70-B4F0-49A9-C7C7-832EFA0FFB9E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4255FD04-87E9-2538-C912-475EB1A228BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

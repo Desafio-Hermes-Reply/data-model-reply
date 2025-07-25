@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0DA4E83D-E7CC-2108-3879-27A75FEED06B" containerWithKeyObject="0F778AA2-8001-0CCF-10F2-A96356E20DB3" localFKIndex="AA913BC9-8AF8-971F-BD67-1B9569859D09" name="FK_usuarios_perfis">
+<sourceDDLFile>script_db.ddl</sourceDDLFile>
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<importedID>BBD26A19-6B21-17A1-014F-FC3E1C078F83</importedID>
+<referredTableLongName>perfis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>98B48A4C-77C4-91ED-62F6-B55C76025338</referredTableID>
+<keyObject>1F490BB1-C1E1-725B-A123-3C39152A2132</keyObject>
+<referredKeyID>1F490BB1-C1E1-725B-A123-3C39152A2132</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_perfil</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

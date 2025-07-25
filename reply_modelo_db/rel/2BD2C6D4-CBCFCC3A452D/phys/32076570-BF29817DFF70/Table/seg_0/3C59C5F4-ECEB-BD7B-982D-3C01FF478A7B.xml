@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="maquinas" directorySegmentName="seg_0" id="3C59C5F4-ECEB-BD7B-982D-3C01FF478A7B">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="proxima_manutencao" id="0CA64DF0-ECEE-1DE7-A663-03048401A25B">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fabricante" id="0FC159B3-A3AF-BD1C-1DEE-89EFD939039C">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ultima_manutencao" id="119FED5E-B698-8F24-F18B-2F140758CB4A">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="localizacao" id="31EBA4F7-9E55-49DE-E2DD-CD6D9DB05B48">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="modelo" id="33630C96-7C42-BE30-96DA-09D3C61631AA">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="numero_serie" id="36245649-8B8E-60D9-6878-9D495458EC92">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="3AE7C98D-8400-01B5-A8DC-F22620DB92EC">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_instalacao" id="9F2F481B-D2E1-EDDD-B2D1-31E0EC854E5F">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_maquina" id="AE72885B-3D83-28AE-FA4D-E1B21239A2A4">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nome" id="F0B40267-23A9-13E8-0E8C-1FB0F25DADDF">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_maquinas" id="F797B35C-7E9E-52E1-3180-D1F277D56D14">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:34 UTC</createdTime>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

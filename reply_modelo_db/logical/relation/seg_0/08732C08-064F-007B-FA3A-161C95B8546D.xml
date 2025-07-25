@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_leitura_sensores" directorySegmentName="seg_0" id="08732C08-064F-007B-FA3A-161C95B8546D">
+<createdBy>Beatriz</createdBy>
+<createdTime>2025-07-25 19:03:56 UTC</createdTime>
+<generatorID>1615085F-F0D0-7BEE-687C-6C9BA38C9428</generatorID>
+<ownerDesignName>reply_modelo_db</ownerDesignName>
+<engineerTo>
+<item key="2BD2C6D4-A65B-F43E-E632-CBCFCC3A452D" value="true"/>
+</engineerTo>
+<sourcePk>AD83E3D6-FF5E-892B-A22B-BF67B644F843</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2197FE08-11F7-197A-EBE0-B0146A877AF2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7D8D3F4-4E6D-43AB-FF7A-6C19CA05D554</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
