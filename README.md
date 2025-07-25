@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.fiap.com.br/">
-    <img src="assets/logo-fiap.png" alt="FIAP" width="40%">
+    <img width="40%" height="642" alt="logo-fiap" src="https://github.com/user-attachments/assets/5e804a5c-baa5-4273-9eff-91ef3ea86aed" />
   </a>
 </p>
 
